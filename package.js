@@ -18,7 +18,13 @@ Package.onUse(function(api) {
 
   api.add_files([
     'client.js',
-    'validate-form.js'
+    'validate-form.js',
+    'validators/alpha-num.js',
+    'validators/email.js',
+    'validators/max.js',
+    'validators/min.js',
+    'validators/required.js',
+    'validators/zip.js'
   ], 'client');
 
 });
